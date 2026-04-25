@@ -1,0 +1,19 @@
+{
+  "name": "solix-pnl-image-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Production-ready PnL image generator API for Discord embeds.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "@sparticuz/chromium-min": "^138.0.2",
+    "puppeteer-core": "^24.8.2"
+  }
+}
